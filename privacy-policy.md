@@ -10,10 +10,10 @@ Thread Note stores the following information locally on the user's device:
 
 - Notes and note text
 - Thread relationships between notes
-- Deleted-note markers used to preserve thread history
-- Thread colors and local activity signals used to organize the home screen
+- Deleted-note placeholders used to preserve thread structure
+- Thread colors and recent note activity used to organize the home screen
 
-This data is stored locally on the device. Thread Note does not require an account and does not operate a backend server that collects, syncs, or stores user notes.
+This data is stored locally on the device. Thread Note does not require an account and does not operate a backend server that collects, syncs, or stores user notes or recent note activity.
 
 ## Information We Do Not Collect
 
@@ -22,7 +22,7 @@ Thread Note does not collect or transmit the following to the developer:
 - User accounts or login details
 - Notes or thread contents
 - Raw voice recordings
-- Analytics events
+- Analytics events or app usage history
 - Advertising identifiers
 - Precise location
 - Contacts, photos, files, or calendar data
@@ -47,7 +47,7 @@ Speech recognition may involve the operating system or system speech provider as
 
 Notes remain on the user's device until the user deletes them or uninstalls the app.
 
-When a note is moved to trash, Thread Note removes the note content but may keep a small marker in the thread so the surrounding thread structure remains understandable. Users can later remove the marker, cut the thread at that point, or bridge around it.
+When a note is moved to trash, Thread Note removes the note text but may keep a small placeholder in the thread so the surrounding thread structure remains understandable. Users can later delete the placeholder, split following notes into new threads, or reconnect the surrounding notes.
 
 Uninstalling Thread Note removes app-local data from the device according to the operating system's app data behavior.
 
